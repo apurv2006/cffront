@@ -1,0 +1,91 @@
+:root {
+    --background-color: #1e1e2e;
+    --white: #ffffff;
+    --white-5: rgba(255, 255, 255, 0.1);
+    --black: #000000;
+    --accent: #4caf50;
+}
+
+.fullscreen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+}
+
+.form-section {
+    background: var(--white-5);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-section h2 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.input-group label {
+    color: var(--white);
+    font-size: 1rem;
+    display: block;
+}
+
+.input-group input {
+    padding: 0.7rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.submit-btn {
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.result-box {
+    margin-top: 2rem;
+    background-color: var(--white-5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: left;
+}
+
+.result-box h3 {
+    color: var(--accent);
+    font-size: 1.5rem;
+}
+
+.result-box h4 {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.result-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: var(--white);
+    font-size: 1rem;
+}
